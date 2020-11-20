@@ -1,0 +1,39 @@
+{
+	"name": "z-spell",
+	"version": "1.0.0",
+	"description": "",
+	"author": "alexeychikk",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --config webpack/webpack.dev.js",
+		"build": "webpack --config webpack/webpack.prod.js",
+		"server": "node server.js"
+	},
+	"engines": {
+		"node": "10.x"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"awesome-typescript-loader": "^5.2.1",
+		"browser-sync": "^2.26.3",
+		"browser-sync-webpack-plugin": "^2.2.2",
+		"clean-webpack-plugin": "^2.0.1",
+		"copy-webpack-plugin": "^5.0.2",
+		"html-webpack-plugin": "^3.2.0",
+		"raw-loader": "^2.0.0",
+		"ts-loader": "^5.3.3",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^3.3.4000",
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0",
+		"webpack-dev-server": "^3.2.1",
+		"webpack-merge": "^4.2.1",
+		"webpack-obfuscator": "^0.18.0",
+		"workbox-webpack-plugin": "^4.1.1"
+	},
+	"dependencies": {
+		"express": "^4.16.4",
+		"phaser": "^3.16.2",
+		"phaser3-rex-notes": "git+https://github.com/rexrainbow/phaser3-rex-notes.git"
+	}
+}
